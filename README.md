@@ -21,5 +21,5 @@ Construir un portafolio técnico demostrable de ciberseguridad OT, integrando te
 
 ---
 
-✍️ **Autor:** [Tu nombre completo]  
-📅 **Inicio del proyecto:** [mes y año]
+✍️ **Autor:** Victoria García Rodríguez  
+📅 **Inicio del proyecto:** 06/2025
