@@ -22,11 +22,11 @@ Notas teóricas y conceptos base del curso **Fundamentals of OT (ICS/SCADA) Cybe
 
 | Sección | Archivo | Descripción |
 |----------|----------|-------------|
-| 1️⃣ Introducción a OT Components | [`notes_basic_concepts.md`](./01-Fundamentals-OT/notes_basic_concepts.md) | Conceptos fundamentales de OT: PLC, sensores, actuadores, loops de control. |
+| 1️⃣ Introducción a OT Components | [`notes_basic_concepts.md`](./01-Fundamentals-OT/notes_basic_concepts.md) | Conceptos fundamentales de OT: PLC, sensores, actuadores y loops de control. |
 | 2️⃣ Introducción a DCS | *(pendiente)* | Estructura de control distribuido (DCS) y relación con SCADA. |
 | 3️⃣ SCADA Systems | [`notes_scada.md`](./01-Fundamentals-OT/03-SCADA-Systems/notes_scada.md) | Supervisión, adquisición de datos y estructura de un sistema SCADA. |
 | 4️⃣ OT vs IT | [`notes_ot_vs_it.md`](./01-Fundamentals-OT/04-OT-vs-IT/notes_ot_vs_it.md) | Diferencias entre tecnología operacional y tecnología de la información. |
-| 5️⃣ OT Protocols | *(pendiente)* | Comunicación y protocolos industriales. |
+| 5️⃣ OT Protocols | [`notes_ot_protocols.md`](./01-Fundamentals-OT/05-OT-Protocols/notes_ot_protocols.md) | Comunicación y protocolos industriales (Modbus, DNP3, OPC, etc.). |
 | 6️⃣ OT Cybersecurity Controls | *(pendiente)* | Controles y medidas de seguridad en entornos OT. |
 
 ---
