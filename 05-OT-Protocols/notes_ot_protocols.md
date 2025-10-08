@@ -2,7 +2,7 @@
 **Curso:** Fundamentals of OT (ICS/SCADA) Cybersecurity  
 **Autora:** Victoria García Rodríguez  
 **Repositorio:** [OT-Cybersecurity-Labs](https://github.com/cosiata01/OT-Cybersecurity-Labs)  
-**Ubicación:** `/01-Fundamentals-OT/notes_ot_protocols.md`  
+**Ubicación:** `/01-Fundamentals-OT/05-OT-Protocols/notes_ot_protocols.md`  
 **Estado:** ✅ Completo  
 
 ---
@@ -220,3 +220,5 @@ Modbus es el **protocolo más utilizado en la industria** por su simplicidad y s
 Comprender su estructura y funcionamiento es fundamental para aplicar medidas de **ciberseguridad OT**, como segmentación, monitoreo pasivo y detección de anomalías en redes industriales.
 
 ---
+
+📦 **Próximo paso:** Implementar el laboratorio práctico [`Lab01 — Simulación Modbus HMI ↔ PLC`](./lab01_modbus_vm_setup/README.md)
