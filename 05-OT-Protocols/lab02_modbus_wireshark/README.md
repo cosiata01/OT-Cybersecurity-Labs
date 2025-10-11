@@ -14,14 +14,10 @@ Capturar y analizar el tráfico Modbus TCP entre un HMI/cliente y un PLC/esclavo
 2. Iniciar simulación Modbus (ModSim y ModScan).
 3. Capturar tráfico en Wireshark.
 4. Enviar solicitudes Modbus y observar respuestas.
-5. Guardar la captura en `captures/lab02_capture.pcapng`.
-6. Documentar hallazgos en `notes_lab02_results.md`.
 
-## 📁 Estructura recomendada
-- `screenshots/` → capturas de Wireshark
-- `captures/` → archivos `.pcapng`
-- `configs/` → configuración de laboratorio
+## 🎥 Video explicativo del laboratorio
 
-## 🔗 Referencias
-- [Wireshark Modbus dissector](https://wiki.wireshark.org/Modbus)
-- [Modbus TCP specification](https://modbus.org/specs.php)
+Puedes ver todo el Lab02 en acción en este video:
+
+[![Ver Lab02 en YouTube](https://img.youtube.com/vi/TT2ecsngckk/0.jpg)](https://www.youtube.com/watch?v=TT2ecsnqckk)
+
