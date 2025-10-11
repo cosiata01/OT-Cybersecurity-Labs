@@ -33,15 +33,15 @@ Este módulo documenta mi progreso en el curso base de OT Cybersecurity, abarcan
 
 ## 🧪 Laboratorios prácticos
 
-Cada laboratorio está diseñado para complementar la teoría con práctica real en entornos simulados.
+Cada laboratorio complementa la teoría con práctica en entornos simulados.
 
 | Laboratorio | Ubicación | Descripción |
 |--------------|------------|-------------|
 | **Lab01 — Simulación de comunicación Modbus TCP (ModScan ↔ ModSim)** | [`/01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/`](./01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/) | Simulación de cliente-servidor Modbus TCP entre dos VMs Windows 10. Incluye setup, resultados y evidencia en video. |
+| **Lab02 — Captura y análisis Modbus TCP con Wireshark** | [`/01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/`](./01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/) | Laboratorio práctico para capturar y analizar paquetes Modbus TCP entre HMI y PLC, interpretando la estructura de MBAP, PDU y códigos de función. |
 
-> 🎥 **Video demostrativo:** *(pendiente de publicación en YouTube)*  
-> Título: *“Lab01 — Simulación de comunicación Modbus TCP (ModScan ↔ ModSim)”*
-> Link: https://youtu.be/TT2ecsnqckk
+> 🎥 **Video demostrativo Lab02:**  
+> [Lab02 — Modbus TCP Packet Analysis with Wireshark](https://www.youtube.com/watch?v=TT2ecsnqckk)
 
 ---
 
@@ -61,7 +61,7 @@ Cada módulo está diseñado para reflejar **aprendizaje continuo, evidencia té
 **Autora:** Victoria García Rodríguez  
 **Repositorio:** [OT-Cybersecurity-Labs](https://github.com/cosiata01/OT-Cybersecurity-Labs)  
 **Inicio del proyecto:** Junio 2025  
-**Última actualización:** 9 Octubre 2025  
+**Última actualización:** 12 Octubre 2025  
 
 ---
 
