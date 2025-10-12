@@ -39,9 +39,13 @@ Cada laboratorio complementa la teoría con práctica en entornos simulados.
 |--------------|------------|-------------|
 | **Lab01 — Simulación de comunicación Modbus TCP (ModScan ↔ ModSim)** | [`/01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/`](./01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/) | Simulación de cliente-servidor Modbus TCP entre dos VMs Windows 10. Incluye setup, resultados y evidencia en video. |
 | **Lab02 — Captura y análisis Modbus TCP con Wireshark** | [`/01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/`](./01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/) | Laboratorio práctico para capturar y analizar paquetes Modbus TCP entre HMI y PLC, interpretando la estructura de MBAP, PDU y códigos de función. |
+| **Lab03 — Simulación SCADA (Winlog Lite ↔ WinSim64)** | [`/01-Fundamentals-OT/03-SCADA-Systems/lab03_scada_winlog_winsim64/`](./01-Fundamentals-OT/03-SCADA-Systems/lab03_scada_winlog_winsim64/) | Simulación de un entorno SCADA básico usando Winlog Lite conectado a WinSim64 (servidor Modbus). Se implementan etiquetas para control y lectura de presión. |
 
-> 🎥 **Video demostrativo Lab02:**  
-> [Lab02 — Modbus TCP Packet Analysis with Wireshark](https://www.youtube.com/watch?v=TT2ecsnqckk)
+---
+
+### 🎥 Evidencia en video
+
+🔗 **[Ver video del Lab03 en YouTube](https://www.youtube.com/watch?v=LcMEE81f7BE)**
 
 ---
 
@@ -49,7 +53,7 @@ Cada laboratorio complementa la teoría con práctica en entornos simulados.
 
 Construir un **portafolio técnico demostrable en Ciberseguridad Industrial**, integrando:
 - Fundamentos teóricos claros y organizados.  
-- Laboratorios prácticos reproducibles con herramientas reales (ScadaBR, OpenPLC, Wireshark, etc.).  
+- Laboratorios prácticos reproducibles con herramientas reales (ScadaBR, OpenPLC, Wireshark, Winlog Lite, etc.).  
 - Documentación profesional en formato Markdown.  
 
 Cada módulo está diseñado para reflejar **aprendizaje continuo, evidencia técnica y mejora progresiva**.
