@@ -61,6 +61,20 @@ Construir un **portafolio técnico profesional en Ciberseguridad OT**, combinand
 
 ---
 
+## 🎓 Certificación del curso base
+
+📘 **Curso:** Fundamentals of OT (ICS/SCADA) Cybersecurity  
+🏫 **Plataforma:** Udemy  
+👩‍💻 **Instructor:** Nebras Alqurashi
+📅 **Fecha de finalización:** 14 Octubre 2025  
+📄 **Certificado:**   ![Certificado Udemy - Fundamentals of OT](./01-Fundamentals-OT/certificate_udemy/fundamentals_ot_certificate_victoria_garcia.png)
+
+
+> Este curso forma la base teórica del módulo `01-Fundamentals-OT` y de los tres laboratorios prácticos realizados durante el aprendizaje.
+
+
+---
+
 💡 *“La ciberseguridad industrial no solo protege sistemas, protege procesos que mueven el mundo.”*
  
 
