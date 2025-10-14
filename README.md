@@ -1,7 +1,7 @@
 # 🏭 OT Cybersecurity Labs
 
 📘 **Repositorio personal de aprendizaje práctico en Ciberseguridad Industrial (OT/ICS)**  
-🎓 Proyecto vinculado a mi formación en *Administración de Sistemas Informáticos en Red (ASIR)* y a una ruta autodidacta basada en cursos de **Udemy**, especialmente *“Fundamentals of OT (ICS/SCADA) Cybersecurity”*.
+🎓 Proyecto vinculado a mi formación en *Administración de Sistemas Informáticos en Red (ASIR)* y cursos complementarios en **Udemy** sobre *Fundamentals of OT (ICS/SCADA) Cybersecurity*.
 
 ---
 
@@ -10,53 +10,45 @@
 | Carpeta | Contenido |
 |----------|------------|
 | `01-Fundamentals-OT` | Fundamentos teóricos de OT y sistemas de control industrial (ICS/SCADA). |
-| `02-Network-Monitoring` | Monitoreo de red OT con herramientas open source (Snort, Zeek, Wireshark). |
-| `03-Protocol-Analysis` | Análisis de tráfico industrial (Modbus, IEC 60870-5-104). |
-| `04-Security-Policies` | Normativas y políticas de seguridad OT (IEC 62443, NIST 800-82). |
+| `02-Network-Monitoring` | Monitoreo de red OT con Snort, Zeek, Wireshark. *(en desarrollo)* |
+| `03-SCADA-Systems` | Simulación y análisis de entornos SCADA reales. |
+| `04-OT-vs-IT` | Comparativa entre entornos IT tradicionales y tecnología operacional OT. |
+| `05-OT-Protocols` | Protocolos industriales y laboratorios Modbus TCP. |
+| `06-OT-Cybersecurity-Controls` | Controles de ciberseguridad específicos para sistemas OT. |
 
 ---
 
 ## 🧠 Módulo 01 — Fundamentals of OT Cybersecurity (ICS/SCADA)
 
-Este módulo documenta mi progreso en el curso base de OT Cybersecurity, abarcando desde la arquitectura de control industrial hasta la convergencia IT/OT y sus implicaciones de seguridad.
+Documentación teórica del curso base, abarcando desde la arquitectura industrial hasta la convergencia IT/OT y sus implicaciones de seguridad.
 
 | Sección | Archivo | Descripción |
 |----------|----------|-------------|
 | 1️⃣ Introducción a OT Components | [`notes_basic_concepts.md`](./01-Fundamentals-OT/notes_basic_concepts.md) | Conceptos fundamentales: PLC, sensores, actuadores y *control loops*. |
-| 2️⃣ Introducción a DCS | *(pendiente)* | Estructura y funcionamiento de los sistemas de control distribuido (DCS) y su relación con SCADA. |
-| 3️⃣ SCADA Systems | [`notes_scada.md`](./01-Fundamentals-OT/03-SCADA-Systems/notes_scada.md) | Supervisión, adquisición de datos y estructura de un sistema SCADA. |
-| 4️⃣ OT vs IT | [`notes_ot_vs_it.md`](./01-Fundamentals-OT/04-OT-vs-IT/notes_ot_vs_it.md) | Diferencias entre OT e IT, convergencia y modelo Purdue. |
-| 5️⃣ OT Protocols | [`notes_ot_protocols.md`](./01-Fundamentals-OT/05-OT-Protocols/notes_ot_protocols.md) | Comunicación y protocolos industriales (Modbus, DNP3, OPC, etc.). |
-| 6️⃣ OT Cybersecurity Controls | *(pendiente)* | Controles y medidas de defensa en entornos industriales OT. |
+| 2️⃣ Introducción a DCS | *(integrada)* | Estructura y funcionamiento de los sistemas de control distribuido. |
+| 3️⃣ SCADA Systems | [`notes_scada.md`](./03-SCADA-Systems/notes_scada.md) | Supervisión, adquisición de datos y estructura de un sistema SCADA. |
+| 4️⃣ OT vs IT | [`notes_ot_vs_it.md`](./04-OT-vs-IT/notes_ot_vs_it.md) | Diferencias, convergencia y modelo Purdue. |
+| 5️⃣ OT Protocols | [`notes_ot_protocols.md`](./05-OT-Protocols/notes_ot_protocols.md) | Comunicación y protocolos industriales (Modbus, DNP3, OPC, etc.). |
+| 6️⃣ OT Cybersecurity Controls | [`notes_ot_cybersecurity_controls.md`](./06-OT-Cybersecurity-Controls/notes_ot_cybersecurity_controls.md) | Controles, defensas y mejores prácticas en entornos OT. |
 
 ---
 
 ## 🧪 Laboratorios prácticos
 
-Cada laboratorio complementa la teoría con práctica en entornos simulados.
-
 | Laboratorio | Ubicación | Descripción |
 |--------------|------------|-------------|
-| **Lab01 — Simulación de comunicación Modbus TCP (ModScan ↔ ModSim)** | [`/01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/`](./01-Fundamentals-OT/05-OT-Protocols/lab01_modbus_vm_setup/) | Simulación de cliente-servidor Modbus TCP entre dos VMs Windows 10. Incluye setup, resultados y evidencia en video. |
-| **Lab02 — Captura y análisis Modbus TCP con Wireshark** | [`/01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/`](./01-Fundamentals-OT/05-OT-Protocols/lab02_modbus_wireshark/) | Laboratorio práctico para capturar y analizar paquetes Modbus TCP entre HMI y PLC, interpretando la estructura de MBAP, PDU y códigos de función. |
-| **Lab03 — Simulación SCADA (Winlog Lite ↔ WinSim64)** | [`/01-Fundamentals-OT/03-SCADA-Systems/lab03_scada_winlog_winsim64/`](./01-Fundamentals-OT/03-SCADA-Systems/lab03_scada_winlog_winsim64/) | Simulación de un entorno SCADA básico usando Winlog Lite conectado a WinSim64 (servidor Modbus). Se implementan etiquetas para control y lectura de presión. |
+| **Lab01 — Simulación de comunicación Modbus TCP** | [`/05-OT-Protocols/lab01_modbus_vm_setup/`](./05-OT-Protocols/lab01_modbus_vm_setup/) | Simulación Modbus TCP entre cliente/servidor en máquinas virtuales. |
+| **Lab02 — Captura y análisis Modbus TCP con Wireshark** | [`/05-OT-Protocols/lab02_modbus_wireshark/`](./05-OT-Protocols/lab02_modbus_wireshark/) | Captura y análisis del tráfico industrial Modbus TCP. |
+| **Lab03 — Simulación SCADA (Winlog Lite ↔ WinSim64)** | [`/03-SCADA-Systems/lab03_winloglite_winsim64/`](./03-SCADA-Systems/lab03_winloglite_winsim64/) | Simulación de entorno SCADA con comunicación Modbus TCP. |
 
 ---
 
-### 🎥 Evidencia en video
+## 🚀 Objetivo
 
-🔗 **[Ver video del Lab03 en YouTube](https://www.youtube.com/watch?v=LcMEE81f7BE)**
-
----
-
-## 🚀 Objetivo del proyecto
-
-Construir un **portafolio técnico demostrable en Ciberseguridad Industrial**, integrando:
-- Fundamentos teóricos claros y organizados.  
-- Laboratorios prácticos reproducibles con herramientas reales (ScadaBR, OpenPLC, Wireshark, Winlog Lite, etc.).  
-- Documentación profesional en formato Markdown.  
-
-Cada módulo está diseñado para reflejar **aprendizaje continuo, evidencia técnica y mejora progresiva**.
+Construir un **portafolio técnico profesional en Ciberseguridad OT**, combinando:
+- Teoría estructurada y documentación limpia.  
+- Prácticas reproducibles y evidencias técnicas.  
+- Ejemplos reales en entornos industriales simulados.
 
 ---
 
@@ -65,7 +57,12 @@ Cada módulo está diseñado para reflejar **aprendizaje continuo, evidencia té
 **Autora:** Victoria García Rodríguez  
 **Repositorio:** [OT-Cybersecurity-Labs](https://github.com/cosiata01/OT-Cybersecurity-Labs)  
 **Inicio del proyecto:** Junio 2025  
-**Última actualización:** 12 Octubre 2025  
+**Última actualización:** 14 Octubre 2025  
+
+---
+
+💡 *“La ciberseguridad industrial no solo protege sistemas, protege procesos que mueven el mundo.”*
+ 
 
 ---
 
